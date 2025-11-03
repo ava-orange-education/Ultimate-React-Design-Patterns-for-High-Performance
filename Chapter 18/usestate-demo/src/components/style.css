@@ -1,0 +1,90 @@
+.counter-wrapper {
+  background: linear-gradient(135deg, #1e1e1e, #2c2c2c);
+  border: 2px solid #00ffcc;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(0, 255, 204, 0.5);
+  text-align: center;
+  width: 450px;
+}
+
+.counter-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #00ffcc;
+}
+
+.counter-value {
+  font-size: 5rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.counter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.counter-buttons button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #00ffcc;
+  color: #121212;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.counter-buttons button:hover {
+  transform: scale(1.1);
+}
+
+.counter-buttons button:active {
+  transform: scale(0.9);
+}
+
+.counter-form {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.counter-input {
+  padding: 0.5rem;
+  border: 2px solid #00ffcc;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.counter-input:focus {
+  outline: none;
+  border-color: #00e6b8;
+}
+
+.update-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #00ffcc;
+  color: #121212;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.2s ease-in-out;
+  margin-left: 10px;
+}
+
+.update-button:hover {
+  transform: scale(1.1);
+}
+
+.update-button:active {
+  transform: scale(0.9);
+}

@@ -1,0 +1,103 @@
+
+/* Apply box-sizing and font to all elements */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+/* Apply common styles to buttons and input[type="submit"] */
+button,
+input[type="submit"] {
+  background-color: var(--button-color);
+  border: none;
+  color: white;
+  margin: 0.5em;
+  padding: 1em 2em;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect */
+button:hover,
+input[type="submit"]:hover {
+  background-color: darkcyan;
+  transform: translateY(-2px);
+}
+
+/* Active effect */
+button:active,
+input[type="submit"]:active {
+  background-color: cyan;
+  transform: translateY(1px);
+}
+
+/* Primary style */
+.primary {
+  background-color: tomato;
+}
+
+.primary:hover {
+  background-color: orangered;
+}
+
+/* Secondary style */
+.secondary {
+  background-color: cornflowerblue;
+}
+
+.secondary:hover {
+  background-color: dodgerblue;
+}
+
+/* Form styles */
+input {
+  padding: 1em;
+  display: block;
+  margin: 0.5em 0;
+  border: 2px solid lightgray;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  border-color: var(--button-color);
+}
+
+form {
+  padding: 1em;
+  margin: 2em 0;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  text-align: center;
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+/* Main content area */
+.container {
+  border: 5px solid rgba(128, 0, 0, 0.4);
+  font-weight: 600;
+  margin: 3em auto;
+  padding: 2em;
+  width: 500px;
+  text-align: center;
+  background-color: rgba(128, 0, 0, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+

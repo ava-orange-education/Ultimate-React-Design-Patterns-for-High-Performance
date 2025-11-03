@@ -1,0 +1,25 @@
+@keyframes pulse {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.loader p {
+  font-size: 34px; 
+  color: crimson;
+  font-weight: bold;
+  animation: pulse 1s infinite; 
+}

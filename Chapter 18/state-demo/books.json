@@ -1,0 +1,58 @@
+[
+  {
+    "title": "JavaScript: The Good Parts",
+    "author": "Douglas Crockford"
+  },
+  {
+    "title": "You Don't Know JS: Scope & Closures",
+    "author": "Kyle Simpson"
+  },
+  {
+    "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "author": "Robert C. Martin"
+  },
+  {
+    "title": "The Pragmatic Programmer: Your Journey to Mastery",
+    "author": "Andrew Hunt"
+  },
+  {
+    "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+    "author": "Erich Gamma"
+  },
+  {
+    "title": "Introduction to the Theory of Computation",
+    "author": "Michael Sipser"
+  },
+  {
+    "title": "Gatsby Projects",
+    "author": "Nabendu Biswas"
+  },
+  {
+    "title": "Full Stack Web Development with MERN",
+    "author": "Nabendu Biswas"
+  },
+  {
+    "title": "Gatsby Basics",
+    "author": "Nabendu Biswas"
+  },
+  {
+    "title": "Node.js Design Patterns",
+    "author": "Mario Casciaro"
+  },
+  {
+    "title": "Fluent Python",
+    "author": "Luciano Ramalho"
+  },
+  {
+    "title": "Python Crash Course",
+    "author": "Eric Matthes"
+  },
+  {
+    "title": "Machine Learning Yearning",
+    "author": "Andrew Ng"
+  },
+  {
+    "title": "Deep Learning",
+    "author": "Ian Goodfellow"
+  }
+]

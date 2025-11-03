@@ -1,0 +1,21 @@
+.buttons {
+  text-align: center;
+  margin-top: 14px;
+}
+
+.button {
+  background: #fff;
+  min-width: 50px;
+  min-height: 50px;
+  text-align: center;
+  padding: 3px;
+  border: 1px solid #dfe7f2;
+  box-shadow: 0 0 1px 0 #2c3338;
+  cursor: pointer;
+}
+
+.span {
+  display: block;
+  text-align: center;
+  font-size: 32px;
+}
